@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unique Products with Timeless Appeal.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4QEWtM": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Phone Cases, Desk Mats, Bags - Check out our products below.</strong>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "All Products →",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_4QEWtM",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-main.webp",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "title": "<strong>Best Sellers</strong>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "arch",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_xNbFf7": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QdVLNL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSC000251x1.webp",
+            "image_overlay_opacity": 50,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_N6bKQi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSC08251_9e990d15-44b6-4645-9291-915433c1affa.webp",
+            "image_overlay_opacity": 40,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-3"
+          }
+        }
+      },
+      "block_order": [
+        "slide_QdVLNL",
+        "slide_N6bKQi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "newsletter_piniWh": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_njzwL8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>12% off your first order! Enter your email below for the discount...</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_DHJnyW": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>We can assure you, we won't spam you.</p>"
+          }
+        },
+        "email_form_6wLQqn": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_njzwL8",
+        "paragraph_DHJnyW",
+        "email_form_6wLQqn"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "slideshow_xNbFf7",
+    "newsletter_piniWh"
+  ]
+}
